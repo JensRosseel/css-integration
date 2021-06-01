@@ -1,0 +1,39 @@
+body{
+    /*insert font-family*/
+}
+.container{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+}
+.card{
+    height: 350px;
+    width: 250px;
+}
+.card h1{
+    font-size: 26px;
+    font-weight: normal;
+    color: green;
+}
+img{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.gulp{
+    height: 150px;
+    width: 75px;
+}
+.npm{
+    margin-top: 54px;
+    margin-bottom: 54px;
+}
+@media only screen and (max-width:1024px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 350px 350px 350px 350px;
+    }
+    .card{
+        margin: auto;
+    }
+}
